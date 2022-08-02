@@ -1,2 +1,3 @@
 # Data-Structures-and-Algorithms
-Data Structures and Algorithms with python
+
+Questions and answers on Data Structures and Algorithms with python
