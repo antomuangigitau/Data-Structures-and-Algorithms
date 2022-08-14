@@ -79,3 +79,19 @@ f(x) is O(g(x)) if there exist constants also known as `(witnesses)` C and k suc
 `| f(x) | ≤ C .|g(x)| for all x ≥ k`
 
 The formal definition is useful when you need to perform a math proof.
+
+# Space Complexity
+
+This is how much (RAM or disk space) an algorithm needs to complete
+
+### `Linear`
+
+Take an algorithm in that for every item in the array it creates another array in the process of sorting it. eg An array of length 5, the algorithm will create 5 arrays. This translates to **`O(n)`** in spatial complexity
+
+### `Constant`
+
+Given an algorithm in which no matter the length of the array it would still take the same space as when started. This would translate to **`O(1)`**
+
+### `Logarithmic`
+
+Given an algorithm that for every item in the array it creates a diminishing amount of extra arrays eg An array of length 7 it creates 2 arrays.This translates to **`O(log n)`**
